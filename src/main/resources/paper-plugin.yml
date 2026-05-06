@@ -1,0 +1,8 @@
+name: syntax-skygen-generators
+version: '${version}'
+
+main: eu.wejsonekk.syntaxstudio.skygengenerator.SyntaxSkygenGenerators
+bootstrapper: eu.wejsonekk.syntaxstudio.skygengenerator.SyntaxSkygenGeneratorsBootstrap
+loader: xyz.jpenilla.gremlin.runtime.platformsupport.DefaultsPaperPluginLoader
+api-version: '1.21.8'
+load: POSTWORLD
