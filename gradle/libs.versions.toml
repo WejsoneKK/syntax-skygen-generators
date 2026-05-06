@@ -2,13 +2,38 @@
 paper-api = "1.21.8-R0.1-SNAPSHOT"
 minecraft = "1.21.8"
 
+
+thriump-gui = "3.1.13"
+multification = "1.2.4"
+litecommands = "3.10.9"
+okaeri-configs = "6.1.0-beta.4"
+okaeri-placeholders = "6.0.0-beta.5"
+eternalcommons = "1.3.4"
 paperweight-userdev = "2.0.0-beta.21"
 shadow = "9.4.1"
 run-task = "3.0.2"
 gremlin = "0.0.9"
 
+
 [libraries]
 gremlin-runtime = { module = "xyz.jpenilla:gremlin-runtime", version.ref = "gremlin" }
+
+thriump-gui = { module = "dev.triumphteam:triumph-gui", version.ref = "thriump-gui" }
+eternalcommons-adventure = { module = "com.eternalcode:eternalcode-commons-adventure", version.ref = "eternalcommons" }
+eternalcommons-shared = { module = "com.eternalcode:eternalcode-commons-shared", version.ref = "eternalcommons" }
+multification-okaeri = { module = "com.eternalcode:multification-okaeri", version.ref = "multification" }
+multification-paper = { module = "com.eternalcode:multification-paper", version.ref = "multification" }
+okaeri-configs-snakeyaml = { module = "eu.okaeri:okaeri-configs-yaml-snakeyaml", version.ref = "okaeri-configs" }
+okaeri-configs-serdes-bukkit = { module = "eu.okaeri:okaeri-configs-serdes-bukkit", version.ref = "okaeri-configs" }
+okaeri-configs-serdes-okaeri-bukkit = { module = "eu.okaeri:okaeri-configs-serdes-okaeri-bukkit", version.ref = "okaeri-configs" }
+okaeri-configs-serdes-adventure = { module = "eu.okaeri:okaeri-configs-serdes-adventure", version.ref = "okaeri-configs" }
+okaeri-configs-serdes-commons = { module = "eu.okaeri:okaeri-configs-serdes-commons", version.ref = "okaeri-configs" }
+okaeri-configs-serdes-okaeri = { module = "eu.okaeri:okaeri-configs-serdes-okaeri", version.ref = "okaeri-configs" }
+okaeri-placeholders-adventure = { module = "eu.okaeri:okaeri-placeholders-adventure", version.ref = "okaeri-placeholders" }
+okaeri-placeholders-core = { module = "eu.okaeri:okaeri-placeholders-core", version.ref = "okaeri-placeholders" }
+okaeri-placeholders-bukkit = { module = "eu.okaeri:okaeri-placeholders-bukkit", version.ref = "okaeri-placeholders" }
+litecommands-paper = { module = "dev.rollczi:litecommands-bukkit", version.ref = "litecommands" }
+litecommands-adventure = { module = "dev.rollczi:litecommands-adventure", version.ref = "litecommands" }
 
 [plugins]
 paperweight-userdev = { id = "io.papermc.paperweight.userdev", version.ref = "paperweight-userdev" }
